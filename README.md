@@ -2,7 +2,7 @@
 
 It is a sandbox for tesing git-hub commands 
 and some notes to quickly find and use the right
-command.
+command. Here I use only **CLI** to use git.
 
 ## Working with stash
 
@@ -21,3 +21,5 @@ git stash [--include-untracked]
 ```shell
   git stash pop
 ```
+
+###
