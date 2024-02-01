@@ -22,4 +22,21 @@ git stash [--include-untracked]
   git stash pop
 ```
 
-###
+### checkout with create
+
+```shell
+  git checkout -b "branch-name"
+```
+
+### change name origin 
+
+Without checkout to new branch
+```shell
+  git branch -f "branch-from" "branch-to"
+```
+
+With checkout
+
+```shell
+  git checkout -B "branch-from" "branch-to"
+```
