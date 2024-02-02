@@ -4,12 +4,20 @@ It is a sandbox for tesing git-hub commands
 and some notes to quickly find and use the right
 command. Here I use only **CLI** to use git.
 
-## Working with stash
+## Basic
+
+### add files
+```shell
+  git add .
+```
 
 ### commit with add
 ```shell
   git commit -am "message"
 ```
+
+
+## Working with stash
 
 ### stash
 ```shell
@@ -22,13 +30,15 @@ git stash [--include-untracked]
   git stash pop
 ```
 
-### checkout with create
+## Working with branches
+
+### checkout with create new branch
 
 ```shell
   git checkout -b "branch-name"
 ```
 
-### change name origin 
+### change branch head 
 
 Without checkout to new branch
 ```shell
@@ -40,3 +50,4 @@ With checkout
 ```shell
   git checkout -B "branch-from" "branch-to"
 ```
+
